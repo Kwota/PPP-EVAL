@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+/*nav*/
+
+.nav{
+	background-color: blue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.nav a{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+
+.nav img{
+	width: 60px;
+	height: 54.5px;
+	float: left;
+	
+	
+}
+
+.nav a:hover{
+	color: yellow;
+	
+}
+
+#fda{
+	float: left;
+}
+
+
+
+/*header*/
+
+#maintitle{
+	font-size: 2.5em;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	text-align: center;
+	
+}
+
+
+.header{
+	margin: auto;
+	background:linear-gradient(to bottom right, blue, white);
+	
+}	
+
+
+
+
+
+
+
+	
+/*info*/
+
+
+.inform{
+	background: linear-gradient(to top right, blue, white);
+	color: white;
+	padding-top: 60px;
+}
+
+.inform h1{
+	color: black;
+	padding-bottom: 20px;
+}
+
+
+.dropd{
+	color: black;
+}
+
+.input-color{
+	color: black;
+}
+
+
+.wrapper{
+	text-align: center;
+}
+
+.inform .btn{
+	margin-right: 10px;
+	margin-bottom: 20px;
+	
+}
+
+/*artistic*/
+
+
+
+
+#outof{
+	color: red;
+	font-size: 20px;
+}
+
+.artistic{
+	margin: auto;
+	background: linear-gradient(to bottom right, yellow, white);
+	padding-top: 60px;
+}
+
+.artskill{
+	padding-left: 20px;
+}
+
+.artistic h1{
+	padding-bottom: 40px;
+}
+
+.artskill p{
+	padding-left: 40px;
+}
+
+.artistic .btn{
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+/*acrobatic*/
+
+#outofa{
+	color: red;
+	font-size: 20px;
+}
+
+.acrobatic{
+	background: linear-gradient(to top right, blue, white);
+	padding-top: 60px;
+	color: white;
+}
+
+.acroskill{
+	padding-left: 20px;
+}
+
+.acroskill ul{
+	padding-left: 40px;
+}
+
+.acrobatic h1{
+	padding-bottom: 40px;
+}
+
+.acrobatic p{
+	padding-right: 40px;
+}
+
+
+
+/*professional*/
+
+
+.prof{
+	background: linear-gradient(to bottom right, yellow, white);
+	padding-top: 60px;
+	
+}
+
+#outofb{
+	color: red;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.all{
+	background-color: blue;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.proskill{
+	padding-left: 20px
+	
+}
+
+.proskill ul{
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+
+
+/*show readiness*/
+
+
+
+.showreadiness{
+	background: linear-gradient(to top right, blue, white);
+	color: white;
+}
+
+.showreadiness h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.showreadiness form{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
