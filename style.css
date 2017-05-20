@@ -10,6 +10,7 @@
 
 .nav{
 	background-color: blue;
+	z-index: 50;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -25,20 +26,20 @@
 	padding: 20px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	
+
 }
 
 .nav img{
 	width: 60px;
 	height: 54.5px;
 	float: left;
-	
-	
+
+
 }
 
 .nav a:hover{
 	color: yellow;
-	
+
 }
 
 #fda{
@@ -54,15 +55,15 @@
 	padding-bottom: 50px;
 	padding-top: 100px;
 	text-align: center;
-	
+
 }
 
 
 .header{
 	margin: auto;
-	background:linear-gradient(to bottom right, blue, white);
-	
-}	
+	background:linear-gradient(to bottom right, grey, white);
+
+}
 
 
 
@@ -70,14 +71,15 @@
 
 
 
-	
+
 /*info*/
 
 
 .inform{
 	background: linear-gradient(to top right, blue, white);
-	color: white;
+	color: black;
 	padding-top: 60px;
+	text-align:center;
 }
 
 .inform h1{
@@ -95,14 +97,38 @@
 }
 
 
-.wrapper{
+.inform .wrapper{
 	text-align: center;
 }
 
 .inform .btn{
 	margin-right: 10px;
 	margin-bottom: 20px;
-	
+}
+
+/*show readiness*/
+
+
+
+.showreadiness{
+	background-color: grey;
+	padding-bottom: 50px;
+
+}
+
+.showreadiness h1{
+	text-align: center;
+	padding-bottom: 30px;
+	color: black;
+}
+
+.showreadiness form{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.showreadiness h4{
+	color: black;
 }
 
 /*artistic*/
@@ -112,13 +138,16 @@
 
 #outof{
 	color: red;
-	font-size: 20px;
+	font-size: 30px;
+	padding-top: 50px;
+
 }
 
 .artistic{
 	margin: auto;
-	background: linear-gradient(to bottom right, yellow, white);
+	background: linear-gradient(to bottom right, grey, white);
 	padding-top: 60px;
+	color: black;
 }
 
 .artskill{
@@ -127,15 +156,21 @@
 
 .artistic h1{
 	padding-bottom: 40px;
+	padding-top: 50px;
 }
 
 .artskill p{
 	padding-left: 40px;
+	font-size: 18px;
 }
 
 .artistic .btn{
 	margin-right: 10px;
 	margin-bottom: 20px;
+}
+
+.artistic .col{
+	padding-bottom: 50px;
 }
 
 
@@ -148,9 +183,9 @@
 }
 
 .acrobatic{
-	background: linear-gradient(to top right, blue, white);
+	background: linear-gradient(to top right, grey, white);
 	padding-top: 60px;
-	color: white;
+
 }
 
 .acroskill{
@@ -159,6 +194,7 @@
 
 .acroskill ul{
 	padding-left: 40px;
+	font-size: 18px;
 }
 
 .acrobatic h1{
@@ -167,17 +203,21 @@
 
 .acrobatic p{
 	padding-right: 40px;
+	font-size: 18px;
 }
 
+.acroskill .wrapper{
+	text-align: center;
+}
 
 
 /*professional*/
 
 
 .prof{
-	background: linear-gradient(to bottom right, yellow, white);
+	background: linear-gradient(to bottom right, grey, white);
 	padding-top: 60px;
-	
+
 }
 
 #outofb{
@@ -196,32 +236,14 @@
 
 .proskill{
 	padding-left: 20px
-	
+
 }
 
 .proskill ul{
 	padding-left: 40px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
-
-
-/*show readiness*/
-
-
-
-.showreadiness{
-	background: linear-gradient(to top right, blue, white);
-	color: white;
-}
-
-.showreadiness h1{
+.prof .wrapper{
 	text-align: center;
-	padding-bottom: 30px;
 }
-
-.showreadiness form{
-	text-align: center;
-	padding-bottom: 30px;
-}
-
