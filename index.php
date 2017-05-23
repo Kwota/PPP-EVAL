@@ -23,7 +23,7 @@
 		<a href="#artistic">Artistic Skills</a>
 		<a href="#inform">Information</a>
 		<img src="images/2.png" alt="Cirque logo">
-		<a href="#" id= "fda">FDA</a>
+		<a href="#" id= "fda">FDA COACHING AND PERFORMANCE</a>
 
 
 	</div>
@@ -53,6 +53,8 @@
 
  	<div class= "row">
       <div class= "col-md-6">
+
+<div class="inline">
 
 
  		SAP:
@@ -93,11 +95,13 @@
 			<option value= "volta">Volta</option>
 			</select>
 			<br><br>
-
+</div>
 	</div>
 
 
 	<div class= "col col-md-6">
+<div class="inline">
+
 
 	Discipline:
 		<input class= "input-color" type= "text" name= "discipline"
@@ -122,7 +126,7 @@
 		<br>
 
 
-
+</div>
 	 </div>
 
 
@@ -560,6 +564,9 @@
 
 	<div id= "proskill" class= "proskill">
 	<h2>Autonomous Learning</h2>
+	<div class="inline">
+
+
 	  <ul>
 	  	<li>Demonstrates maturity in being responsible for his own learning
 				progress and being autonomous in fixing personal problems/issues</li>
@@ -570,7 +577,7 @@
 	  	<li>Manages emotions to perform the new task successfully
 				(e.g., shyness, frustration, stress)</li><br><br>
 	  </ul>
-
+</div>
 		<div class="row">
 
 		<div class= "col col-md-6">
@@ -595,6 +602,9 @@
 	</div>
 </div>
 		<h2>Work Adptation</h2>
+		<div class="inline">
+
+
 	  <ul>
 	  	<li>Feels comfortable stepping out his/her comfort zone in acrobatic and
 				artistic tasks (e.g., taking risks)</li>
@@ -613,6 +623,7 @@
 				help accomplish the task</li>
 	  	<br><br>
 	  </ul>
+		</div>
 		<div class= "row">
 			<div class= "col col-md-6">
 		<h4>Acrobatic Mid</h4>
@@ -657,7 +668,7 @@
 </form>
 
 														<!-- FOOTER -->
-<div class="footer">													
+<div class="footer">
 <div class="container">
 
 <h5>Created by Mitch Head, &copy KWOTA DESIGN 2017</h5>

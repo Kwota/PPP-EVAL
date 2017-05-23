@@ -30,6 +30,11 @@ li{
 input{
 	text-align: center;
 }
+
+.inline{
+	display: inline-block;
+	text-align: left;
+}
 													/*NAV*/
 
 .nav{
@@ -78,6 +83,7 @@ input{
 	padding-bottom: 50px;
 	padding-top: 100px;
 	text-align: center;
+	color: black;
 }
 
 .header{
@@ -203,6 +209,8 @@ input{
 	background: linear-gradient(to bottom right, grey, white);
 	padding-top: 45px;
 	padding-bottom: 20px;
+	text-align: center;
+	color: black;
 }
 
 
@@ -228,6 +236,7 @@ input{
 	background: linear-gradient(to bottom right, grey, white);
 	padding-top: 45px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .prof h1{
@@ -251,6 +260,8 @@ input{
 	padding-left: 40px;
 	font-size: 18px;
 }
+
+
 
 .prof .wrapper{
 	text-align: center;
