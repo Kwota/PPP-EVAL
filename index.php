@@ -14,7 +14,10 @@
 
 <body>
 
-	<!--Nav-->
+														<!-- NAVIGATION -->
+
+
+
 	<div id= "nav" class= "nav" >
 
 		<a href="#showreadiness">Show Readiness</a>
@@ -31,7 +34,9 @@
 
 
 
-<!--Header-->
+															<!-- HEADER -->
+
+
 <div id= "header" class= "header">
 	<div class= "container">
 
@@ -41,7 +46,7 @@
 
 
 
-<!--Info-->
+															<!-- INFORMATION -->
 
 
 
@@ -145,7 +150,7 @@
 
 
 
-<!--Show Readiness-->
+																<!-- SHOW READINESS -->
 
 
 <div id= "showreadiness" class= "showreadiness">
@@ -203,7 +208,8 @@
 </div>
 
 
-<!--Artistic-->
+
+															<!-- ARTISTIC -->
 
 <div id= "artistic" class= "artistic">
 	<div class= "container">
@@ -408,10 +414,10 @@
 
 
 			<div id= "acroskill" class= "acroskill">
-					<div class="inline-block">
-
 
 				<h3 id= "outofa" style="text-align: center">Score out of 100%</h3>
+
+
 
 				<div class= "row">
 					<div class= "col col-md-6">
@@ -420,7 +426,7 @@
 							<li>Ability to execute technical elements asked by the coach so far</li>
 							<li>Realization of a sequence of orderly bodily actions to achieve acrobatic
 								elements required </li>
-							</ul>
+							</ul><br>
 
 
 							<h4>Mid:</h4>
@@ -444,6 +450,7 @@
 								<li>Aesthetics of different bodily segments when achieving an
 									acrobatic element.</li>
 								</ul>
+								<br><br>
 
 								<h4>Mid:</h4>
 								<input class= "input-color" type= "number" onkeyup="acromid()" name= "midexecute" id="midexecute" value="0" min="0" max="100" placeholder="Score">
@@ -514,10 +521,12 @@
 
 							</div>
 						</div>
-						</div>
+
+
+													<!-- COMMENTS ACROBATIC -->
+
+
 						<div class="comment">
-
-
 						<h2>Objectives</h2>
 						<textarea class= "input-color" rows="8" cols="150"
 
@@ -550,7 +559,7 @@
 			</div>
 		</div>
 
-<!--Professional	-->
+														<!-- PROFESSIONAL -->
 
 <div id= "professional" class= "prof">
   <div class= "container">
