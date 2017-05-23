@@ -1,15 +1,40 @@
-@charset "utf-8";
 /* CSS Document */
-
+@charset "utf-8";
+													/*RESET*/
 *{
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
 }
-/*nav*/
+
+												/*GENERAL*/
+#outof{
+	color: red;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.comment{
+	text-align: center;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+li{
+	color: black;
+	font-size: 16px;
+}
+
+input{
+	text-align: center;
+}
+													/*NAV*/
 
 .nav{
-	background-color: blue;
+	background: linear-gradient(to top right, blue, white);
+
 	z-index: 50;
 	overflow: hidden;
 	position: fixed;
@@ -21,20 +46,18 @@
 .nav a{
 	float: right;
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 20px 16px;
 	text-decoration: none;
 	font-size: 17px;
-
 }
 
 .nav img{
 	width: 60px;
 	height: 54.5px;
 	float: left;
-
-
+	padding: 0px;
 }
 
 .nav a:hover{
@@ -48,37 +71,31 @@
 
 
 
-/*header*/
+												/*HEADER*/
 
 #maintitle{
-	font-size: 2.5em;
+	font-size: 3.5em;
 	padding-bottom: 50px;
 	padding-top: 100px;
 	text-align: center;
-
 }
-
 
 .header{
 	margin: auto;
-	background:linear-gradient(to bottom right, grey, white);
-
+	background-image: url("images/illustration.jpg");
 }
 
 
 
 
-
-
-
-
-/*info*/
+										/*INFORMATION*/
 
 
 .inform{
 	background: linear-gradient(to top right, blue, white);
 	color: black;
-	padding-top: 60px;
+	font-size: 18px;
+	padding-top: 45px;
 	text-align:center;
 }
 
@@ -97,133 +114,123 @@
 }
 
 
-.inform .wrapper{
-	text-align: center;
-}
-
 .inform .btn{
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
 
-/*show readiness*/
+											/*SHOW READINESS*/
 
 
 
 .showreadiness{
 	background-color: grey;
 	padding-bottom: 50px;
+	padding-top: 40px;
 
 }
 
 .showreadiness h1{
 	text-align: center;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	color: black;
 }
 
-.showreadiness form{
-	text-align: center;
-	padding-bottom: 30px;
-}
 
 .showreadiness h4{
 	color: black;
+	text-align: center;
 }
 
-/*artistic*/
-
-
-
-
-#outof{
-	color: red;
-	font-size: 30px;
-	padding-top: 50px;
+.showreadiness .col{
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom:5px;
 
 }
+
+											/*ARTISTIC*/
+
 
 .artistic{
-	margin: auto;
 	background: linear-gradient(to bottom right, grey, white);
-	padding-top: 60px;
-	color: black;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
 }
 
-.artskill{
-	padding-left: 20px;
+
+.artskill .col{
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	margin-bottom: 5px;
 }
+
 
 .artistic h1{
 	padding-bottom: 40px;
-	padding-top: 50px;
+	padding-top: 20px;
+	color: black;
 }
 
-.artskill p{
-	padding-left: 40px;
-	font-size: 18px;
+.artistic h4{
+	color: black;
 }
 
-.artistic .btn{
-	margin-right: 10px;
-	margin-bottom: 20px;
+.artistic h2{
+	color: black;
 }
+
 
 .artistic .col{
 	padding-bottom: 50px;
-}
-
-
-
-/*acrobatic*/
-
-#outofa{
-	color: red;
-	font-size: 20px;
-}
-
-.acrobatic{
-	background: linear-gradient(to top right, grey, white);
-	padding-top: 60px;
-
-}
-
-.acroskill{
-	padding-left: 20px;
-}
-
-.acroskill ul{
-	padding-left: 40px;
-	font-size: 18px;
-}
-
-.acrobatic h1{
-	padding-bottom: 40px;
-}
-
-.acrobatic p{
-	padding-right: 40px;
-	font-size: 18px;
-}
-
-.acroskill .wrapper{
 	text-align: center;
 }
 
 
-/*professional*/
+
+
+												/*ACROBATIC*/
+
+
+
+
+.acrobatic{
+	background: linear-gradient(to bottom right, grey, white);
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+
+
+.acrobatic h1{
+	padding-bottom: 40px;
+	color: black;
+}
+
+.acroskill .col{
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	margin-top: 2px;
+	padding: auto;
+}
+
+
+
+											/*PROFESSIONAL*/
 
 
 .prof{
 	background: linear-gradient(to bottom right, grey, white);
-	padding-top: 60px;
-
+	padding-top: 45px;
 }
 
-#outofb{
-	color: red;
-	font-size: 20px;
-	padding-top: 20px;
+.prof h1{
+	color: black;
 }
 
 .all{
