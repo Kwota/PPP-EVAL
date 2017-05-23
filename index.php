@@ -656,9 +656,13 @@
 </div>
 </form>
 
-<!--show readiness-->
+														<!-- FOOTER -->
+<div class="footer">													
+<div class="container">
 
-
+<h5>Created by Mitch Head, &copy KWOTA DESIGN 2017</h5>
+</div>
+</div>
 <script type="text/javascript" src= "main.js" rel='javascript'></script>
 <script src= "js/jquery-3.2.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

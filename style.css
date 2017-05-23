@@ -227,6 +227,7 @@ input{
 .prof{
 	background: linear-gradient(to bottom right, grey, white);
 	padding-top: 45px;
+	padding-bottom: 40px;
 }
 
 .prof h1{
@@ -252,5 +253,13 @@ input{
 }
 
 .prof .wrapper{
+	text-align: center;
+}
+
+
+														/*FOOTER*/
+.footer{
+	background-color: blue;
+	color: white;
 	text-align: center;
 }
