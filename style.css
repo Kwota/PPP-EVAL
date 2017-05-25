@@ -175,7 +175,10 @@ input{
 	border-style: solid;
 	border-width: 2px;
 	text-align: center;
-	margin-bottom: 5px;
+	margin: 40px;
+	height: 350px;
+	width: 500px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 
@@ -197,15 +200,12 @@ input{
 .artistic .col{
 	padding-bottom: 50px;
 	text-align: center;
+
+
+
 }
 
-
-
-
 												/*ACROBATIC*/
-
-
-
 
 .acrobatic{
 	background: linear-gradient(to bottom right, grey, white);
@@ -224,15 +224,18 @@ input{
 .acroskill .col{
 	border-style: solid;
 	border-width: 2px;
+	border-color: grey;
 	text-align: center;
-	margin-top: 2px;
+	margin: 40px;
 	padding: auto;
+	height: 350px;
+	width: 500px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 
 
 											/*PROFESSIONAL*/
-
 
 .prof{
 	background: linear-gradient(to bottom right, grey, white);
